@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="CrowdCast — live voting for rooms full of people">
+  <defs>
+    <linearGradient id="ogBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b12"/>
+      <stop offset="100%" stop-color="#1a1030"/>
+    </linearGradient>
+    <linearGradient id="ogMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="55%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="ogGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <ellipse cx="600" cy="60" rx="620" ry="300" fill="url(#ogGlow)"/>
+
+  <rect x="80" y="96" width="88" height="88" rx="26" fill="url(#ogMark)"/>
+  <path d="M104 146l14 14 30-34" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="148" cy="118" r="7" fill="#ffffff" opacity="0.9"/>
+
+  <text x="80" y="330" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="72" font-weight="700" fill="#ffffff">Crowd<tspan fill="#a78bfa">Cast</tspan></text>
+  <text x="80" y="396" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="38" font-weight="500" fill="#c9c9d8">Live voting for rooms full of people</text>
+  <text x="80" y="470" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="26" fill="#8f8fa6">Timed rounds &#183; One link or QR &#183; Live results &#183; No duplicate votes</text>
+
+  <rect x="80" y="520" width="150" height="52" rx="26" fill="#7c5cff"/>
+  <text x="155" y="554" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="600" fill="#ffffff" text-anchor="middle">Start free</text>
+</svg>
